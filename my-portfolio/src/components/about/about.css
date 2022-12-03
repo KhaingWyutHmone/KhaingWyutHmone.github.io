@@ -1,0 +1,63 @@
+.about_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMe{
+    color: black;
+    font-family: 'fantasy';
+}
+
+.aboutMe::before{
+    content: '\21E0';
+    color: black;
+}
+
+.aboutMe::after{
+    content: '\21E2';
+    color: black;
+}
+
+.my-photo{
+    width: 30%;
+    border-radius: 3rem;
+}
+
+.myself{
+    width: 40%;
+}
+
+.my-image{
+    border-radius: 5rem;
+    box-shadow: -20px -2px 13px #c5a24d;
+    transition: var(--transition);
+}
+
+.my-image:hover{
+    transform: rotate(10deg);
+    box-shadow: none;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.exp-card{
+    background-color: #412d13;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.exp-card:hover{
+    background-color: #c5a24d;
+    transform: rotate(2deg);
+}
+
+.experience-brief{
+    margin-top: 1rem;
+}

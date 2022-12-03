@@ -1,0 +1,29 @@
+.learning_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.learn{
+    width: 40%;
+}
+.learn1{
+    width: 50%;
+}
+
+.course{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #e6e6e6;
+    border: 2px dotted black;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.course-name{
+    display: inline-block;
+}
+
+.course-icon{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

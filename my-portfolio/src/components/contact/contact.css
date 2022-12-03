@@ -1,0 +1,31 @@
+
+.contactMe{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-div{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact{
+    height: 50vh;
+}
+.github{
+    color: black;
+}
+
+.github:hover{
+    color: var(--color-primary);
+}
+
+.social{
+    width: 20%;
+    
+
+    /* line-height: 3rem; */
+    text-align: center;
+}

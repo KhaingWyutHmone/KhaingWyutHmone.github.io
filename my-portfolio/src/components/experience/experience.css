@@ -1,0 +1,32 @@
+.experience_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontend, .backend{
+    width: 40%;
+    background-color: transparent;
+    border: 1px solid brown;
+    border-radius: 3rem;
+}
+.frontend:hover, .backend:hover{
+    background-color: brown;
+    border: 13px solid white;
+    border-radius: 3rem;
+    color: white;
+}
+
+.frontend-section, .backend-section{
+    text-align: center;
+    padding: 2rem;
+}
+
+.frontend-tech, .backend-tech{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0.7rem;
+}
+
+.tech{
+    margin: 0.7rem;
+}

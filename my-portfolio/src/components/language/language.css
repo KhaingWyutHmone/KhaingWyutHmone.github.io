@@ -1,0 +1,26 @@
+.language_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.burmese, .english, .japanese{
+    width: 25%;
+    background-color: #e3c358;
+    border-radius: 2rem;
+    border: 3px solid white;
+    box-shadow: -22px 14px 18px -2px rgb(191 182 97 / 75%);
+    transition: var(--transition);
+}
+
+.burmese:hover, .english:hover, .japanese:hover{
+    transform: rotate(10deg);
+}
+
+.lang{
+    text-align: center;
+    padding: 3rem;
+}
+
+.level{
+    color: white;
+}

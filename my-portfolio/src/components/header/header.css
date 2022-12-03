@@ -1,0 +1,65 @@
+header{
+    height: auto;
+    padding-top: 3rem;
+    /* overflow: hidden; */
+}
+
+.header__container{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+@media screen and (max-width :1024px) {
+    .header__container{
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+        margin : auto;
+    }
+    .me{
+        width: 100%;
+        margin: auto;
+    }
+
+    .about_container{
+        flex-direction: column;
+    }
+
+    .my-photo{
+        width: 100%;
+        margin: auto;
+    }
+    .myself{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width :600px) {
+    .download{
+        flex-direction: column;
+    }
+}
+
+.info{
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.download{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.me{
+    width: 50%;
+    /* height: 30rem; */
+    /* position: absolute; */
+    left : calc(50% - 11rem);
+    margin-top: 0.5rem;
+}
